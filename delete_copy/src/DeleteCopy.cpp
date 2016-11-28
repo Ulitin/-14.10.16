@@ -5,18 +5,7 @@
 
 void delete_n_el(nambers* first)
 {
-	nambers* box_prev, *box_next;
-	box_next=first->next;
-	box_prev=first->prev;
-	delete first;
-	if(box_prev!=0)
-	{
-		box_prev->next=box_next;
-	}
-	if(box_next!=0)
-	{
-		box_next->prev=box_prev;
-	}
+	
 }
 
 nambers* delete_copy_in_struct(nambers* first)
